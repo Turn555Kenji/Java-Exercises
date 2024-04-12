@@ -16,7 +16,7 @@ public class ContaBancaria {
 	public ContaBancaria(int numeroConta, String titular) {
 		
 		this.numeroConta = numeroConta;
-		this.titular = titular;
+		this.setTitular(titular);
 		this.saldo = 0.00;
 	}
 	
@@ -60,7 +60,8 @@ public class ContaBancaria {
 	}
 
 	public void setTitular(String titular) {
-		this.titular = titular;
+		if(titular!=" ")
+			this.titular = titular;
 	}
 
 	public double getSaldo() {
