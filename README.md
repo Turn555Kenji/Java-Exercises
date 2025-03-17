@@ -1,1 +1,1 @@
-this.endereco.get(stuff)
+Some java exercises done from OOP classes.
